@@ -1,0 +1,211 @@
+{
+  "alface": {
+    "nome": "Alface",
+    "duracao": "75 a 140",
+    "fases_percentual": "27-37-26-10",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.0,
+      "fase4": 0.8
+    }
+  },
+  "algodao": {
+    "nome": "Algodão",
+    "duracao": "180 a 195",
+    "fases_percentual": "16-27-31-26",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.2,
+      "fase4": 0.7
+    }
+  },
+  "amendoim": {
+    "nome": "Amendoim",
+    "duracao": "130 a 140",
+    "fases_percentual": "22-26-34-18",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.6
+    }
+  },
+  "batata": {
+    "nome": "Batata",
+    "duracao": "105 a 145",
+    "fases_percentual": "21-25-33-21",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.7
+    }
+  },
+  "berinjela": {
+    "nome": "Berinjela",
+    "duracao": "130 a 140",
+    "fases_percentual": "22-32-30-16",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.7
+    }
+  },
+  "beterraba": {
+    "nome": "Beterraba",
+    "duracao": "70 a 90",
+    "fases_percentual": "25-35-28-12",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.8,
+      "fase3": 1.1,
+      "fase4": 0.8
+    }
+  },
+  "cebola_seca": {
+    "nome": "Cebola (seca)",
+    "duracao": "150 a 210",
+    "fases_percentual": "10-17-49-24",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.7
+    }
+  },
+  "cenoura": {
+    "nome": "Cenoura",
+    "duracao": "100 a 150",
+    "fases_percentual": "19-27-39-15",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.7
+    }
+  },
+  "cruciferas": {
+    "nome": "Crucíferas",
+    "duracao": "80 a 95",
+    "fases_percentual": "26-37-25-12",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.0,
+      "fase4": 0.8
+    }
+  },
+  "feijao_vagem": {
+    "nome": "Feijão vagem",
+    "duracao": "75 a 90",
+    "fases_percentual": "21-34-33-12",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.7
+    }
+  },
+  "feijao_seco": {
+    "nome": "Feijão seco",
+    "duracao": "95 a 110",
+    "fases_percentual": "16-25-40-19",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.4
+    }
+  },
+  "girassol": {
+    "nome": "Girassol",
+    "duracao": "125 a 130",
+    "fases_percentual": "17-27-36-20",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.4
+    }
+  },
+  "melao": {
+    "nome": "Melão",
+    "duracao": "120 a 160",
+    "fases_percentual": "20-28-37-15",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.7
+    }
+  },
+  "milho_doce": {
+    "nome": "Milho-doce",
+    "duracao": "80 a 110",
+    "fases_percentual": "23-29-37-11",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.1,
+      "fase4": 0.9
+    }
+  },
+  "milho_graos": {
+    "nome": "Milho grãos",
+    "duracao": "125 a 180",
+    "fases_percentual": "17-28-33-22",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.2,
+      "fase4": 0.5
+    }
+  },
+  "pepino": {
+    "nome": "Pepino",
+    "duracao": "105 a 130",
+    "fases_percentual": "19-28-38-15",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.0,
+      "fase4": 0.8
+    }
+  },
+  "rabanete": {
+    "nome": "Rabanete",
+    "duracao": "35 a 40",
+    "fases_percentual": "20-27-40-13",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.0,
+      "fase4": 0.8
+    }
+  },
+  "tomate": {
+    "nome": "Tomate",
+    "duracao": "135 a 180",
+    "fases_percentual": "21-28-33-18",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.2,
+      "fase4": 0.7
+    }
+  },
+  "trigo": {
+    "nome": "Trigo",
+    "duracao": "120 a 150",
+    "fases_percentual": "13-20-43-24",
+    "kc": {
+      "fase1": 0.4,
+      "fase2": 0.7,
+      "fase3": 1.2,
+      "fase4": 0.3
+    }
+  }
+}
