@@ -17,8 +17,101 @@ const culturas = [
   {
     nome: "Feijão",
     kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.1, fase4: 0.7 }
+  },
+  {
+    nome: "Arroz",
+    kcValores: { fase1: 1.05, fase2: 1.2, fase3: 1.2, fase4: 0.9 }
+  },
+  {
+    nome: "Trigo",
+    kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.15, fase4: 0.4 }
+  },
+  {
+    nome: "Soja",
+    kcValores: { fase1: 0.5, fase2: 0.9, fase3: 1.15, fase4: 0.5 }
+  },
+  {
+    nome: "Cana-de-açúcar",
+    kcValores: { fase1: 0.4, fase2: 0.75, fase3: 1.25, fase4: 0.9 }
+  },
+  {
+    nome: "Tomate",
+    kcValores: { fase1: 0.6, fase2: 1.15, fase3: 1.15, fase4: 0.8 }
+  },
+  {
+    nome: "Batata",
+    kcValores: { fase1: 0.5, fase2: 0.85, fase3: 1.15, fase4: 0.75 }
+  },
+  {
+    nome: "Cebola",
+    kcValores: { fase1: 0.7, fase2: 1.05, fase3: 1.05, fase4: 0.85 }
+  },
+  {
+    nome: "Cenoura",
+    kcValores: { fase1: 0.7, fase2: 1.0, fase3: 1.05, fase4: 0.95 }
+  },
+  {
+    nome: "Repolho",
+    kcValores: { fase1: 0.7, fase2: 1.05, fase3: 1.05, fase4: 0.95 }
+  },
+  {
+    nome: "Pepino",
+    kcValores: { fase1: 0.6, fase2: 1.0, fase3: 1.1, fase4: 0.75 }
+  },
+  {
+    nome: "Abóbora",
+    kcValores: { fase1: 0.5, fase2: 0.9, fase3: 1.05, fase4: 0.8 }
+  },
+  {
+    nome: "Melancia",
+    kcValores: { fase1: 0.4, fase2: 0.85, fase3: 1.05, fase4: 0.75 }
+  },
+  {
+    nome: "Melão",
+    kcValores: { fase1: 0.5, fase2: 0.9, fase3: 1.05, fase4: 0.75 }
+  },
+  {
+    nome: "Banana",
+    kcValores: { fase1: 0.5, fase2: 0.9, fase3: 1.2, fase4: 1.1 }
+  },
+  {
+    nome: "Manga",
+    kcValores: { fase1: 0.4, fase2: 0.75, fase3: 1.0, fase4: 0.8 }
+  },
+  {
+    nome: "Laranja",
+    kcValores: { fase1: 0.6, fase2: 0.85, fase3: 1.0, fase4: 0.8 }
+  },
+  {
+    nome: "Maçã",
+    kcValores: { fase1: 0.5, fase2: 0.85, fase3: 1.0, fase4: 0.7 }
+  },
+  {
+    nome: "Uva",
+    kcValores: { fase1: 0.3, fase2: 0.7, fase3: 0.95, fase4: 0.6 }
+  },
+  {
+    nome: "Café",
+    kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.1, fase4: 0.9 }
+  },
+  {
+    nome: "Algodão",
+    kcValores: { fase1: 0.35, fase2: 0.75, fase3: 1.15, fase4: 0.7 }
+  },
+  {
+    nome: "Girassol",
+    kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.1, fase4: 0.6 }
+  },
+  {
+    nome: "Sorgo",
+    kcValores: { fase1: 0.35, fase2: 0.75, fase3: 1.1, fase4: 0.6 }
+  },
+  {
+    nome: "Amendoim",
+    kcValores: { fase1: 0.4, fase2: 0.8, fase3: 1.05, fase4: 0.6 }
   }
 ];
+
 
 const fasesMap = {
   fase1: "Fase 1 - Inicial",
@@ -157,7 +250,7 @@ const ETCC = () => {
             <p><strong>Fase:</strong> {fasesMap[resultado.fase]}</p>
             <p><strong>Kc:</strong> {resultado.kc}</p>
             <p><strong>ETo:</strong> {resultado.eto} mm/dia</p>
-            <h4>💧 ETc = {resultado.etc} mm/dia</h4>
+            <h4>💧 ETc = {resultado.etc.toFixed(2)} mm/dia</h4>
           </div>
         )}
       </div>

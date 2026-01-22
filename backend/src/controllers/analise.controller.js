@@ -1,4 +1,5 @@
-import { getClima } from "../config/apiExterna.js";
+import { obterDadosClimaticos } from "../services/clima.service.js";
+
 import { calcularEToFAO56 } from "../services/eto.service.js";
 import { calcularETc } from "../services/etc.service.js";
 
